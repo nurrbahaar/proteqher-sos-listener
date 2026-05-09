@@ -47,10 +47,10 @@ app.*.map.json
 **/build/
 
 # ML Training Data (large files)
-kws_help_listener_ml/data/raw/tfds/
-kws_help_listener_ml/data/raw/esc50/*.zip
-kws_help_listener_ml/data/raw/*.tar.gz
-kws_help_listener_ml/outputs/
+ml_research/data/
+ml_research/outputs/
+ml_research/gemini_share.html
+ml_research/wiz_strings.txt
 *.tar.gz
 *.ckpt
 *.h5
