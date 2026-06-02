@@ -4,7 +4,7 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.11.0
+  sdk: '>=3.7.0 <4.0.0'
 
 dependencies:
   flutter:
@@ -17,8 +17,11 @@ dependencies:
   url_launcher: ^6.3.2
   geolocator: ^14.0.2
   google_fonts: ^6.3.2
+  flutter_background_service: ^5.0.7
+  speech_to_text: ^6.6.2
 
 dev_dependencies:
+  http: ^1.2.0
   flutter_test:
     sdk: flutter
   flutter_lints: ^6.0.0
